@@ -46,6 +46,10 @@ window.addEventListener('load', (event) => {
     card.addEventListener('click', () => {
       // TODO: write some code here
       console.log(`Card clicked: ${card}`);
+      card.classList.add("turned");
+      memoryGame.pickedCards.push(card);
+      memoryGame.checkIfPair;
+      memoryGame.checkIfFinished;
     });
   });
 });
